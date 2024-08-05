@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d18317;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background: #a5d31b;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #be4cb8;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.form-container input[type="date"],
+.form-container input[type="time"] {
+  display: inline-block;
+  width: calc(50% - 5px);
+}
+
+.form-container input[type="date"] {
+  margin-right: 10px;
+}
